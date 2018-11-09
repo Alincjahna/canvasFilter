@@ -1,0 +1,12 @@
+<!--pages/canvas/canvas.wxml-->
+<button bindtap="selectImage">选择图片</button>
+<view class="footer">
+    <button bindtap="filter" data-key="origin">原图</button>
+    <button bindtap="filter" data-key="gray">灰色</button>
+    <button bindtap="filter" data-key="blur">模糊</button>
+    <button bindtap="filter" data-key="reverse">反色</button>
+    <button bindtap="filter" data-key="relief">浮雕</button>
+    <button bindtap="filter" data-key="mirror">镜像</button>
+    <button bindtap="filter" data-key="sharpen">锐化</button>
+</view>
+<canvas class="canvasId" canvas-id='canvasId' style="width:{{width}}px;height:{{height}}px"></canvas>

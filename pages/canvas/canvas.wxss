@@ -1,0 +1,17 @@
+/* pages/canvas/canvas.wxss */
+.footer {
+    margin-top: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.footer button {
+    flex: 1;
+    width: 50px;
+    margin: 0 5px;
+}
+.canvasId {
+    margin-top: 10px;
+}
